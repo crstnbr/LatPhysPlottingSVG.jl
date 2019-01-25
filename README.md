@@ -1,43 +1,19 @@
-# LatPhysPlottingSVG.jl [![pipeline status](http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl/badges/master/pipeline.svg)](http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl/commits/master) [![coverage report](http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl/badges/master/coverage.svg)](http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl/commits/master)
+# LatPhysPlottingSVG.jl
+
+Plotting to SVG images for main module [`LatticePhysics.jl`](https://github.com/janattig/LatticePhysics.jl).
 
 
 
 ## Contents
 
-Provides the plotting to svg images for [`LatticePhysics.jl`](http://gitsrv.thp.uni-koeln.de/attig/LatticePhysics.jl).
+Provides the plotting to svg images for [`LatticePhysics.jl`](https://github.com/janattig/LatticePhysics.jl),
+... package is still massively under developement ...
 
 
-## Installation (usage only):
+## Installation
 
 For usage purposes only, you can install the package via the package mode in Julia (Pkg). However, since the package
 is not listed in the Julia package repositories, you have to use
 ```julia
-(v1.0) pkg> add "git@gitsrv.thp.uni-koeln.de:attig/LatPhysPlottingSVG.jl.git"
+(v1.0) pkg> add "https://github.com/janattig/LatPhysPlottingSVG.jl"
 ```
-Note: this can lead to Errors under Windows 10 due to incorrect SSH access. Use the following command instead:
-```julia
-(v1.0) pkg> add "http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl.git"
-```
-You will be prompted a username and password validation but it should work the same way.
-
-
-## Installation (developement):
-
-For developement purposes, it is best to clone the package via git to a developement
-git location of your choice and use
-```julia
-(v1.0) pkg> dev "path/to/the/repository/on/your/machine"
-```
-
-Alternatively, you could use
-```julia
-(v1.0) pkg> dev "git@gitsrv.thp.uni-koeln.de:attig/LatPhysPlottingSVG.jl.git"
-```
-or (on Windows)
-```julia
-(v1.0) pkg> dev "http://gitsrv.thp.uni-koeln.de/attig/LatPhysPlottingSVG.jl.git"
-```
-to clone a development version of the package to `~/.julia/dev/`.
-
-
-Finally, develope the package as you are used to within the editor of your choice.
